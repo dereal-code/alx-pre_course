@@ -47,7 +47,8 @@ git add .
 git commit -m ‘My personal work’ 
 git push
 git checkout main
+git pull
 echo “ALX School is so cool!”
 rm -r js (because the js directory is not empty)
 git commit -m ‘Hot fix’
-git pull
+
