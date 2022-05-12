@@ -1,0 +1,54 @@
+1. cd /root
+2. touch so_cool
+3. cd /root
+4. cp school /tmp
+5. cd /root
+6. mv old_school new_school
+7. cd /root
+8. mv not_here /tmp/right_school
+9. cd /root
+10. rm ready_to_be_removed
+11. cd /root
+12. mkdir school_is_amazing
+13. cd /root
+14. rm -r empty_directory
+15. git clone https://(your personal access code)@github.com/(your username)/alx-pre_course.git
+16. cd alx-pre_course/
+17. echo ‘My first readme’ > README.md
+18. cat README.md
+19. git config —global user.email “(your registered email)”
+20. git config —global user.name “(your username)”
+21. git add .
+22. git commit -m ‘My first commit’
+23. git push
+24. mkdir 0x01-git
+25. cd 0x01-git
+26. echo ‘My second readme’ >README.md
+27. cat README.md
+28. git add .
+29. git commit -m ‘My second commit’
+30. git push
+31. mkdir bash c js
+32. touch c/c_is_fun.c
+33. touch js/main.js
+34. touch bash/alx
+35. echo ‘#!/bin/bash’ ‘echo “ALX”’ >> bash/alx
+36. touch bash/school
+37. echo ‘#!/bin/bash’ ‘echo “School”’ >> bash/alx
+38. git add .
+39. git commit -m ‘“Starting to code today, so cool”’
+40. git push
+41. git branch update_script 
+42. git checkout update_script 
+43. git checkout -b update_script (to create a new branch and switch to it at the same time. This is a shortcut for 41 and 42)
+44. touch bash/98
+45. echo “ALX School” >> bash/alx 
+46. echo “The school is open!” >> bash/school 
+47. git add .
+48. git commit -m ‘My personal work’ 
+49. git push
+50. git checkout main
+51. echo “ALX School is so cool!”
+52. rm -r js (because the js directory is not empty)
+53. git commit -m ‘Hot fix’
+54. git pushi
